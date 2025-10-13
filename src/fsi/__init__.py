@@ -2,5 +2,6 @@
 #
 # SPDX-License-Identifier: MIT
 from .triangular import triangular_fuzzer
+from .trapezoidal import trapezoidal_fuzzer
 
-__all__ =["triangular_fuzzer"]
+__all__ =["triangular_fuzzer", "trapezoidal_fuzzer"]
